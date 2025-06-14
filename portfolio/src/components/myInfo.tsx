@@ -3,7 +3,7 @@ import LinkedInLogo from "../assets/InBug-White.png";
 import MailIcon from "../assets/mail-512.png";
 export default function MyInfo(){
     return (
-        <div className="flex justify-center mt-6">
+        <div className="flex justify-center mt-6 pb-4">
               <div className="flex flex-col gap-2 bg-neutral-800 p-6 rounded-lg w-80 md:w-190 sm:w-150 border-blue-100  border-1">
                 <div className="flex flex-row justify-between items-center w-full">
                   <h1 className="text-green-50 font-mono text-3xl">Rudy Xie</h1>

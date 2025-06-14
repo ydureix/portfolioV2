@@ -15,13 +15,13 @@ export default function AboutMe() {
             <a href="https://www.linkedin.com/in/rudy-xie-60142226a/" target="_blank" className="pr-3">
               <img src={LinkedInLogo} alt="Github" className="w-7 h-7"/>
             </a>
-            <a href="https://www.linkedin.com/in/rudy-xie-60142226a/" target="_blank">
+            <a href="mailto:rudy11923@gmail.com" target="_blank">
               <img src={MailIcon} alt="Github" className="w-7 h-7"/>
             </a>
           </div>
         </div>
         <p className="text-neutral-300 font-mono">Fullstack Developer</p>
-        <p className="text-green-50 font-mono">Hello! I am Rudy, a fullstack developer with 4+ years of experience programming. I am currently pursuing a Bachelor's of Science for Software Engineering at the University of California-Irvine. </p>
+        <p className="text-green-50 font-mono">Hello! I am Rudy, a fullstack developer with 4+ years of experience programming. I am currently pursuing a Bachelor's of Science for Software Engineering at the University of California-Irvine.</p>
       </div>
     </div>
   );

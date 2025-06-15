@@ -22,9 +22,11 @@ export default function ProjectCard({ title, description, image }: ProjectCardPr
         <div className="relative z-10 flex flex-col gap-2">
           <h3 className="text-white text-xl font-bold">{title}</h3>
           <p className="text-gray-300 text-sm">{description}</p>
-          <button className="mt-2 w-max bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600 cursor-pointer transition">
+          <a href="https://github.com/ydureix/ZotMarket" target="_blank">
+            <button className="mt-2 w-max bg-emerald-300 text-white px-4 py-1 rounded hover:bg-emerald-500 cursor-pointer transition">
             View Project
           </button>
+          </a>
         </div>
       </div>
     </div>

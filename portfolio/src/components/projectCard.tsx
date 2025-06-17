@@ -2,9 +2,10 @@ type ProjectCardProps = {
   title: string
   description: string
   image: string // imported or public path
+  link:string
 }
 
-export default function ProjectCard({ title, description, image }: ProjectCardProps) {
+export default function ProjectCard({ title, description, image, link }: ProjectCardProps) {
   return (
     <div className="flex justify-center mt-6 pb-3">
       {/* Add 'group' here so children can use group-hover */}
@@ -22,7 +23,7 @@ export default function ProjectCard({ title, description, image }: ProjectCardPr
         <div className="relative z-10 flex flex-col gap-2">
           <h3 className="text-white text-xl font-bold">{title}</h3>
           <p className="text-gray-300 text-sm">{description}</p>
-          <a href="https://github.com/ydureix/ZotMarket" target="_blank">
+          <a href={link} target="_blank">
             <button className="mt-2 w-max bg-emerald-300 text-white px-4 py-1 rounded hover:bg-emerald-500 cursor-pointer transition">
             View Project
           </button>

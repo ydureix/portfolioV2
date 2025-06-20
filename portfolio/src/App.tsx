@@ -3,6 +3,7 @@ import './App.css'
 import AboutMe from './components/aboutme'
 import Header from './components/header'
 import Projects from './components/projects'
+import ContactMe from './components/contact'
 function App() {
   const aboutRef = useRef<HTMLDivElement>(null)
   const projectsRef = useRef<HTMLDivElement>(null)
@@ -20,6 +21,9 @@ function App() {
       </section>
       <section ref={projectsRef} className="scroll-mt-20">
         <Projects/>
+      </section>
+      <section ref={contactRef} className="scroll-mt-20">
+        <ContactMe/>
       </section>
     </div>
 

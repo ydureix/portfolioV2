@@ -1,7 +1,6 @@
 import gitHubLogo from "../assets/github-mark-white.png";
 import LinkedInLogo from "../assets/InBug-White.png";
 import MailIcon from "../assets/mail-512.png";
-import Experience from "./experience";
 export default function MyInfo(){
     return (
         <div className="flex justify-center mt-6 pb-4">

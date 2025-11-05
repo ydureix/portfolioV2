@@ -1,5 +1,3 @@
-import { Route } from "react-router-dom";
-
 
 type HeaderProps = {
   onAboutClick: () => void

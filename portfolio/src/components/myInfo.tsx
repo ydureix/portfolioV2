@@ -22,7 +22,7 @@ export default function MyInfo(){
                 </div>
                 <p className="text-neutral-300 font-mono">Fullstack Developer</p>
                 <p className="text-green-50 font-mono">Hello! I am Rudy, a fullstack developer with 4+ years of experience programming. I am currently pursuing a Bachelor's of Science for Software Engineering at the University of California-Irvine.</p>
-                <Experience></Experience>
+
               </div>
             </div>
     )

@@ -11,7 +11,7 @@ import GitLogo from "../assets/social.png"
 export default function TechStack(){
     return (
         <div className="flex flex-col justify-between items-center w-full pb-4">
-            <h1 className="text-green-50 font-mono font-extrabold text-3xl pb-5">Tech Stack</h1>
+            <h1 className="text-green-50 font-mono font-extrabold text-6xl pb-5">Tech Stack</h1>
             <div className="flex flex-wrap justify-center w-8/10 xl:w-5/10">
                 <div className="pr-3 pb-">
                     <img src={CPlusPlusLogo} className="w-20 h-20"/>
